@@ -1,0 +1,29 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_size": 12,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Emmet",
+		"GitGutter",
+		"Vintage"
+	],
+	"remember_open_files": false,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"show_minimap": false,
+	"sidebar_default": true,
+	"tab_size": 4,
+	"tabs_medium": true,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"wide_caret": true
+}
