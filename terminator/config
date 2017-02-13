@@ -1,0 +1,36 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.46
+[keybindings]
+  reset = <Primary>r
+  toggle_zoom = <Primary><Shift>Return
+  search = <Primary>f
+  scaled_zoom = <Primary><Shift>z
+  close_window = <Primary>q
+  go_next = <Primary>n
+  split_horiz = <Primary>o
+  go_prev = <Primary>p
+  new_window = <Primary>i
+  close_term = <Primary>w
+  reset_clear = <Primary>g
+  new_tab = <Primary>t
+  split_vert = <Primary>e
+  copy = <Primary>c
+  paste = <Primary>v
+[profiles]
+  [[default]]
+    background_image = None
+    background_darkness = 0.94
+    scrollback_lines = 3000
+    background_type = transparent
+    foreground_color = "#d8d8d8"
+    background_color = "#212121"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
