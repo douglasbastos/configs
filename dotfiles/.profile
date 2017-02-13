@@ -36,6 +36,15 @@ pyenv virtualenvwrapper_lazy
 # ALIAS
 alias restart="exec $SHELL"
 alias removepyc="pyclean ."
+alias cdprojects="cd $PROJECT_HOME"
+alias cdbackend="cd $PROJECT_HOME/backend && workon backend"
+alias cdjobs="cd $PROJECT_HOME/jobs && workon jobs"
+alias cdwally="cd $PROJECT_HOME/wally && workon wally"
+alias cdapi="cd $PROJECT_HOME/api && workon api-portal"
+alias cdportal="cd $PROJECT_HOME/portal && workon portal"
+alias runportal="python manage.py runserver 0.0.0.0:8000"
+alias runapi="python manage.py runserver 0.0.0.0:8100"
+alias biuld_app_python="python setup.py sdist --formats=gztar"
 
 # Mensagem de apresentação =)
 echo "É hora do show! BIRL"
