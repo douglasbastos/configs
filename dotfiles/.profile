@@ -19,11 +19,6 @@
 # # set PATH so it includes user's private bin directories
 # PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
-
-# NVM
-export NVM_DIR="/home/douglas/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
 # PYENV
 export PYENV_ROOT=~/.pyenv
 export PATH="$PYENV_ROOT/bin:$PATH"
